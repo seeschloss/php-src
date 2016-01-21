@@ -56,6 +56,7 @@ fclose($fp);
 HTTP/1.1 200 OK
 Host: %s
 Connection: close
+Date: %s
 X-Powered-By: PHP/%s
 Content-type: text/html; charset=UTF-8
 
@@ -66,6 +67,7 @@ string(7) "foo=bar"
 HTTP/1.0 200 OK
 Host: %s
 Connection: close
+Date: %s
 X-Powered-By: PHP/%s
 Content-type: text/html; charset=UTF-8
 

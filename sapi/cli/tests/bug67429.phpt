@@ -39,11 +39,13 @@ HEADER
 --EXPECTF--
 HTTP/1.1 308 Permanent Redirect
 Connection: close
+Date: %s
 X-Powered-By: %s
 Content-type: text/html; charset=UTF-8
 
 HTTP/1.1 426 Upgrade Required
 Connection: close
+Date: %s
 X-Powered-By: %s
 Content-type: text/html; charset=UTF-8
 

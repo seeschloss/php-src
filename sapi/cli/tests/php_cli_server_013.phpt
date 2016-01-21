@@ -84,6 +84,7 @@ fclose($fp);
 HTTP/1.1 404 Not Found
 Host: %s
 Connection: close
+Date: %s
 Content-Type: text/html; charset=UTF-8
 Content-Length: %d
 
@@ -92,6 +93,7 @@ Content-Length: %d
 HTTP/1.1 404 Not Found
 Host: %s
 Connection: close
+Date: %s
 Content-Type: text/html; charset=UTF-8
 Content-Length: %d
 
@@ -100,6 +102,7 @@ Content-Length: %d
 HTTP/1.1 404 Not Found
 Host: %s
 Connection: close
+Date: %s
 Content-Type: text/html; charset=UTF-8
 Content-Length: %d
 
